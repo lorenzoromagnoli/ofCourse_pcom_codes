@@ -61,7 +61,7 @@ void loop() {
   }
 
   //if the loudness is bigger that 200 then turn on the led. 
-  if (loudness>200){
+  if (loudness>200){ //adjust this value depending on the sensitivity of your sensor, or use the screw on the sound sensor module to adjust the microphone sensitivity.
    digitalWrite(ledPin, HIGH); 
   }else{
     digitalWrite(ledPin, LOW);
