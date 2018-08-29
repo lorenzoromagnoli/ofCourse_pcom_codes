@@ -13,7 +13,7 @@
 
 // MSGEQ7
 #include "MSGEQ7.h"
-#define pinAnalog A2
+#define pinAnalog A0
 #define pinReset 3
 #define pinStrobe 4
 #define MSGEQ7_INTERVAL ReadsPerSecond(50)
