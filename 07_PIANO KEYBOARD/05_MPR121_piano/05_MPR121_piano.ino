@@ -19,6 +19,8 @@ int notes[] = {
   NOTE_A5,
 };
 
+uint16_t currtouched = 0;
+
 void setup() {
   while (!Serial);        // needed to keep leonardo/micro from starting too fast!
 
