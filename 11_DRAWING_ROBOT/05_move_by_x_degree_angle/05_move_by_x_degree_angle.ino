@@ -72,7 +72,7 @@ void rotateXTicks(int ticks, boolean direction) {
   leftTickCount = 0;
   rightTickCount = 0;
 
-  if (direction = right) {
+  if (direction == right) {
     turnRight();
   } else {
     turnLeft();
